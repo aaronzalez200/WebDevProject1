@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Inter, sans-serif;
+    background-color: #282D35;
+}
+
+.my-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 317px;
+    margin-top: 25px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;  
+}
+
+.box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 399px;
+    width: 347px;
+    background-color: #1A1B21;
+    padding-top: 0px;
+}
+
+.button1 {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    background-color: #5093E2;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+h1 {
+    color:white;
+}
+
+h3 {
+    color: gold;
+    font-family: sans-serif;
+}
+
+nav > div > h4 {
+    color:white;
+    margin-top: -5px;
+    font-size: 10px;
+    font-family:'Times New Roman';
+}
+
+nav {
+    padding: 5px;
+    line-height: 80%;
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.Intro {
+    padding-top: 5px;
+}
+
+.About {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 35px;
+}
+.Interests {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding-left: 35px;
+}
+
+.FillerText {
+    color: white;
+    text-align: left;
+    font-size: 10px;
+    padding-left: 35px;
+}
+
+footer {
+    background-color: rgb(85, 85, 110);
+    width: 347px;
+    height: 64px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    padding: 5px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.img {
+    display:inline-block;
+    margin:10px 10px 0px 55px;
+    padding-bottom: 25px;
+}
